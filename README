@@ -1,0 +1,7 @@
+Bach's prelude in C major from WTC book I, written in sed
+
+to listen to it run
+
+$ echo | ./bach.sed | aplay -r44100
+
+and give it a few seconds to produce audio.
