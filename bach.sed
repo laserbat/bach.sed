@@ -2,7 +2,7 @@
 # echo | ./bach.sed | aplay -r44100
 
 # This line contains list of pitches, each letter representing a single pitch and a group of 5 letters representing a chord, to be arpeggiated
-s/.*/ZBpqwACoqvACZBpswBEpquwAoqvADoZmZgmquykoqvxknsvzjmqwAjlqtxikpvyijmptgjmptdgkotfikpsfknpsbjmpscfkprejopqdjkoqdikpsdgkptdgkotdhmpudikpvdgkptdgkqtafkns/
+s/.*/ZBpqwACoqvACZBpswBEpquwAoqvADoZmZgmquykoqvxknsvzjmqwAjlqtxikpvyijmptgjmptdgkotfikpsfknpsbjmpscfmprejopqdjkoqdikpsdgkptdgkotdhmpudikpvdgkptdgkotafkns/
 
 # Z is used as a placeholder for a common note sequence, used to save a bit of space
 s/Z/psvy/g
@@ -19,7 +19,7 @@ s/..(...)/&\1&\1/g
 # And right after the pitch table (after the last [letter][3 digits] sequence) there's an addition table for base 9
 # E.g. 844 basically means 8 == 4 + 4 and 523 means 5 == 2 + 3
 # Yes, this is also really weird but trust me, it's necessary for a computation further in the code
-s/$/afjmptpmpmjgjgafvxACAxAxvxqtsqafsvyy;a828b62 c580d550e522f4 4g363h344i327j3  k270l255m242n230o2 8p207q 76r 67s 58t 50u 42v 35w 2 x 08y 03z088A083B074C070D062E05584473463352342232 2  /
+s/$/afjmptpmpmjmjgjgafvxACAxAxvxqtsqafsvyy;a828b62 c580d550e522f4 4g363h344i327j3  k270l255m242n230o2 8p207q 76r 67s 58t 50u 42v 35w 2 x 08y 03z088A083B074C070D062E05584473463352342232 2  /
 
 # Here we replace each letter with a matching value from a table, Z is used as a separator
 # This is done in a loop that only ends when there's no more replacement possible

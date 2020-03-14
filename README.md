@@ -30,4 +30,4 @@ It should be possible to run on Windows using Cygwin but I haven't tried doing t
 
 ## Pre-recorded version
 
-Alternatively, you can listen to the mp3 in this repository or listen [here](https://clyp.it/fuz0ehy3).
+Alternatively, you can listen to the mp3 in this repository or listen [here](https://clyp.it/dqgahq1x).
