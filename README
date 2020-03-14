@@ -6,4 +6,8 @@ $ echo | ./bach.sed | aplay -r44100
 
 and give it a few seconds to produce audio.
 
+You can add tee to the pipeline to see the square waves produced by sed
+
+$ echo | ./bach.sed | tee >/dev/tty |aplay -r44100
+
 Alternatively, you can listen to the mp3 in this repository or listen at https://clyp.it/fuz0ehy3
