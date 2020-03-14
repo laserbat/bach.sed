@@ -1,4 +1,4 @@
-#!/bin/sed -Ef
+#!/usr/bin/env -S sed -Ef
 # echo | ./bach.sed | aplay -r44100
 
 s/.*/ZBpqwACoqvACZBpswBEpquwAoqvADoZmZgmquykoqvxknsvzjmqwAjlqtxikpvyijmptgjmptdgkotfikpsfknpsbjmpscfkprejopqdjkoqdikpsdgkptdgkotdhmpudikpvdgkptdgkqtafkns/
