@@ -1,4 +1,4 @@
-#!/bin/sed -Ef
+#!/usr/bin/env -S sed -Ef
 # echo | ./bach.sed | aplay -r44100
 
 # This line contains list of pitches, each letter representing a single pitch and a group of 5 letters representing a chord, to be arpeggiated
