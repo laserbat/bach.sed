@@ -14,7 +14,7 @@ It will take a few seconds (16s on my laptop) for it to start producing sound.
 
 For OS X or BSD systems, you'll have to install `gsed` (FreeBSD) or `gnu-sed` (OS X) and edit bach.sed to start with:
 
-`#/usr/local/bin/gsed -Ef`
+`#!/usr/local/bin/gsed -Ef`
 
 To install required packages, use:
 
